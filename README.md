@@ -1,2 +1,2 @@
 # kea_snippets
-Set of snippetsfor Kea
+Set of snippets for Kea
