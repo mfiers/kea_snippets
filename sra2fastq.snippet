@@ -1,0 +1,3 @@
+--tfo forward {input|./|*_1.fastq.gz} --tfo reverse {input|./|*_2.fastq.gz} \
+    fastq-dump --split-3 --gzip {{<p input}}
+    

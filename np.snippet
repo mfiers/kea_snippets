@@ -1,0 +1,12 @@
+## name help="project name"
+
+Creating "Creating vib project {{name}}";
+
+if [[ ! -e "~/vib/project/{{name}}" ]];
+then
+	mkdir "~/vib/project/{{name}}";
+fi;
+
+$EDITOR ~/vib/project/{{name}}/README.md;
+
+echo 'cd ~/vib/project/{{name}}'
